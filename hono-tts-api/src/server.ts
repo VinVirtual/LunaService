@@ -17,7 +17,7 @@ console.log('Environment variables status:', {
 })
 
 // Verify required environment variables
-const requiredEnvVars = ['GROQ_API_KEY', 'ELEVENLABS_API_KEY', 'ELEVENLABS_VOICE_ID' , 'API_KEY']
+const requiredEnvVars = ['GROQ_API_KEY', 'ELEVENLABS_API_KEY', 'ELEVENLABS_VOICE_ID', 'API_KEY']
 const missingEnvVars = requiredEnvVars.filter(varName => !process.env[varName])
 
 if (missingEnvVars.length > 0) {
