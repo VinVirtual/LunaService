@@ -1,0 +1,26 @@
+{
+  "name": "hono-tts-api",
+  "version": "1.0.0",
+  "description": "Text-to-Speech API using Hono",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hono/node-server": "^1.4.0",
+    "axios": "^1.6.7",
+    "dotenv": "^16.4.5",
+    "hono": "^4.0.5",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.19",
+    "tsx": "^4.7.1",
+    "typescript": "^5.3.3"
+  }
+}
